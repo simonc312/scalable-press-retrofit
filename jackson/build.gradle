@@ -1,0 +1,13 @@
+apply plugin: 'java'
+
+dependencies {
+    def JACKSON_VERSION = "2.8.9"
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+
+    compileOnly "com.fasterxml.jackson.core:jackson-databind:$JACKSON_VERSION"
+
+    compile project( path: ':api')
+}
+
+sourceCompatibility = "1.7"
+targetCompatibility = "1.7"
