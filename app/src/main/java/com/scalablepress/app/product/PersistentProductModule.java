@@ -3,7 +3,7 @@ package com.scalablepress.app.product;
 import android.support.annotation.NonNull;
 
 import com.scalablepress.ScalablePressApiBuilder;
-import com.scalablepress.v2.ProductApi;
+import com.scalablepress.api.ProductApi;
 
 import javax.inject.Singleton;
 

@@ -1,4 +1,4 @@
-package com.scalablepress.v2;
+package com.scalablepress.api;
 
 import com.scalablepress.v2.models.Category;
 import com.scalablepress.v2.models.Product;

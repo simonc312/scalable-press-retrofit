@@ -1,6 +1,6 @@
 package com.scalablepress;
 
-import com.scalablepress.v2.ProductApi;
+import com.scalablepress.api.ProductApi;
 
 import retrofit2.Retrofit;
 

@@ -2,7 +2,7 @@ package com.scalablepress.app.product;
 
 import android.support.annotation.NonNull;
 
-import com.scalablepress.v2.ProductApi;
+import com.scalablepress.api.ProductApi;
 import com.scalablepress.v2.models.Category;
 import com.scalablepress.v2.models.Product;
 
