@@ -6,7 +6,7 @@ dependencies {
 
     compileOnly "com.fasterxml.jackson.core:jackson-databind:$JACKSON_VERSION"
 
-    compile project( path: ':api')
+    compile project( path: ':scalable-press-retrofit')
 }
 
 sourceCompatibility = "1.7"
