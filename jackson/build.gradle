@@ -6,8 +6,10 @@ dependencies {
 
     compileOnly "com.fasterxml.jackson.core:jackson-databind:$JACKSON_VERSION"
 
-    compile project( path: ':scalable-press-retrofit')
+    compile project( path: ':retrofit')
 }
 
 sourceCompatibility = "1.7"
 targetCompatibility = "1.7"
+
+apply from: 'deploy.gradle'

@@ -57,7 +57,7 @@ dependencies {
     compile "com.squareup.retrofit2:converter-jackson:$RETROFIT_VERSION"
     compile "com.fasterxml.jackson.core:jackson-databind:$JACKSON_VERSION"
 
-    compile "com.simonc312:scalable-press-retrofit:$SCALABLE_PRESS_VERSION"
-    compile project( path: ':jackson')
+    compile "com.simonc312.scalable-press:retrofit:$SCALABLE_PRESS_VERSION"
+    compile "com.simonc312.scalable-press:jackson:$SCALABLE_PRESS_VERSION"
     testCompile 'junit:junit:4.12'
 }

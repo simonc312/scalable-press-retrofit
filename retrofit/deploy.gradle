@@ -2,8 +2,9 @@ apply plugin: 'maven'
 apply plugin: 'maven-publish'
 apply plugin: 'com.jfrog.bintray'
 
-def releaseGroup = 'com.simonc312'
-def releaseArtifactId = 'scalable-press-retrofit'
+def releaseGroup = 'com.simonc312.scalable-press'
+def releaseArtifactId = 'retrofit'
+def releaseName = 'scalable-press-retrofit'
 def releaseVersion = '0.1.0'
 group releaseGroup // published group id
 version releaseVersion // package version
@@ -26,11 +27,11 @@ bintray {
 
     pkg {
         repo = 'maven'
-        name = releaseArtifactId
+        name = releaseName
         desc = 'Java wrapper for ScalablePress API with Retrofit'
         licenses = ['Apache-2.0']
         publish = true
-        override = true
+        override = false
         vcsUrl = 'github.com/simonc312/scalable-press-retrofit.git'
 
         version {
