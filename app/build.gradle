@@ -39,7 +39,7 @@ dependencies {
     def DAGGER_VERSION = "2.10"
     def RETROFIT_VERSION = "2.3.0"
     def JACKSON_VERSION = "2.8.9"
-    def SCALABLE_PRESS_VERSION = "0.1.0"
+    def SCALABLE_PRESS_VERSION = "0.1.1"
 
     compile fileTree(dir: 'libs', include: ['*.jar'])
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
